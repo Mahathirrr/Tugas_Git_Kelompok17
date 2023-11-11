@@ -45,6 +45,51 @@ public class MainLibrary {
                 magazine1, magazine2, magazine3, magazine4,
                 textbook1, textbook2, textbook3, textbook4
         };
+        while (true) {
+            System.out.println("Options:");
+            System.out.println("1. Borrow a book");
+            System.out.println("2. Return a book");
+            System.out.println("3. Exit");
+            System.out.print("Select an option: ");
+            int option = scanner.nextInt();
+
+            switch (option) {
+                case 1:
+                    System.out.println("Available books:");
+                    for (int i = 0; i < books.length; i++) {
+                        System.out.println((i + 1) + ". " + books[i].getTitle());
+                    }
+                    System.out.print("Select a book to borrow (1-" + books.length + "): ");
+                    int bookChoice = scanner.nextInt();
+
+                    if (bookChoice >= 1 && bookChoice <= books.length) {
+                        Book selectedBook = books[bookChoice - 1];
+                        System.out.print("Enter the number of days to borrow: ");
+                        int daysToBorrow = scanner.nextInt();
+
+                        System.out.println("You borrowed: " + selectedBook.getTitle());
+                        System.out.println("Borrowed for: " + daysToBorrow + " days");
+                    } else {
+                        System.out.println("Invalid book choice.");
+                    }
+                    break;
+
+                case 2:
+                    System.out.println("Enter the book to return:");
+                    scanner.nextLine(); // Consume the newline character
+                    String bookToReturn = scanner.nextLine();
+                    System.out.println("You returned: " + bookToReturn);
+                    break;
+
+                case 3:
+                    System.out.println("Thank you for visiting the library.");
+                    scanner.close();
+                    System.exit(0);
+
+                default:
+                    System.out.println("Invalid option.");
+            }
+        }
     }
 
 }
