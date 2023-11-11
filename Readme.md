@@ -26,9 +26,9 @@ This project is a simple library management system implemented in Java, showcasi
 
 ## Class Hierarchy and Relationships
 
-The BlueJ diagram below illustrates the class hierarchy and relationships in the Library Management System project:
-
-![DiagramBlueJ](https://github.com/Mahathirrr/Library_PBO/assets/111866202/97103ab3-1810-449b-bd88-632c366bf205)
+<div style="text-align:center">
+  <img src="https://github.com/Mahathirrr/Library_PBO/assets/111866202/97103ab3-1810-449b-bd88-632c366bf205" alt="DiagramBlueJ" width="400">
+</div>
 
 - The diagram showcases the inheritance relationships between different book types and the common base class (`Book`).
 - It also highlights any interfaces and abstract classes used in the project.
