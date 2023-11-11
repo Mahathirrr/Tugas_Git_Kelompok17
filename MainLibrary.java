@@ -37,5 +37,14 @@ public class MainLibrary {
         Textbook textbook2 = new Textbook("402", "Mathematics for Engineers", "Alice Johnson", 350);
         Textbook textbook3 = new Textbook("403", "Biology Fundamentals", "David Brown", 320);
         Textbook textbook4 = new Textbook("404", "History of Art", "Laura Davis", 280);
+
+        Book[] books = {
+                comic1, comic2, comic3, comic4,
+                science1, science2, science3, science4,
+                history1, history2, history3, history4,
+                magazine1, magazine2, magazine3, magazine4,
+                textbook1, textbook2, textbook3, textbook4
+        };
     }
+
 }
