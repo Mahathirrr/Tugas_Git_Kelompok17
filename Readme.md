@@ -24,7 +24,17 @@ This project is a simple library management system implemented in Java, showcasi
 2. Compile and run the program using a Java IDE or command line.
 3. Follow the on-screen instructions to borrow or return books.
 
-Feel free to explore the code to learn more about how OOP principles are applied in this project.
+## Class Hierarchy and Relationships
+
+The BlueJ diagram below illustrates the class hierarchy and relationships in the Library Management System project:
+
+![DiagramBlueJ](https://github.com/Mahathirrr/Library_PBO/assets/111866202/97103ab3-1810-449b-bd88-632c366bf205)
+
+- The diagram showcases the inheritance relationships between different book types and the common base class (`Book`).
+- It also highlights any interfaces and abstract classes used in the project.
+- Arrows and associations represent how classes are connected and interact within the system.
+
+Feel free to explore the code to gain a deeper understanding of how OOP principles are applied in this project.
 
 ## License
 
