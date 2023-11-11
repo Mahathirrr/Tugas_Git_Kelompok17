@@ -1,5 +1,3 @@
-package Library_PBO;
-
 /**
  * Represents a discount interface for books.
  */

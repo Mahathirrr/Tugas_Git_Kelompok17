@@ -1,5 +1,3 @@
-package Library_PBO;
-
 /**
  * Represents a history book that extends the Book class.
  */

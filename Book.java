@@ -1,5 +1,3 @@
-package Library_PBO;
-
 /**
  * Represents an abstract book.
  */

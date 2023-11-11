@@ -1,5 +1,3 @@
-package Library_PBO;
-
 /**
  * Represents the Guest class, which contains a name.
  *
