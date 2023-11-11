@@ -36,6 +36,10 @@ This project is a simple library management system implemented in Java, showcasi
 
 Feel free to explore the code to gain a deeper understanding of how OOP principles are applied in this project.
 
+**Watch the Video:**
+1. Click [here](https://drive.google.com/file/d/1cT1A1d8wCP8_23StnYPvG3MzcIB0v6Up/view?usp=sharing) to access the detailed video presentation.
+2. Gain valuable insights into OOP concepts in action within the Library Management System.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
